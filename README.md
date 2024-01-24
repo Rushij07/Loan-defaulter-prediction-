@@ -1,10 +1,13 @@
 Loan Defaulter Prediction System
 Project Overview
-This project aims to develop a machine learning model to predict loan defaulters, assisting financial institutions in minimizing risk and maximizing profits. The model identifies potential loan defaulters based on customer data, enabling proactive risk management.
+This project aims to develop a machine learning model to predict loan defaulters, assisting financial institutions in minimizing risk and maximizing profits. 
+The model identifies potential loan defaulters based on customer data, enabling proactive risk management.
+
 
 Business Context
 Problem Statement
 A substantial proportion of customers are defaulting on loans, leading to significant financial risk.
+
 
 Objectives
 Minimize the number of loan defaulters.
@@ -19,6 +22,8 @@ Data
 Source: Bank's internal database.
 Sample Size: Data of 1000 customers.
 Variables: Total of 17 (16 inputs like income, credit score; 1 output - default status).
+
+
 Implementation
 1. Data Collection
 Data is collected from the bank's database, focusing on 17 key variables to predict loan default likelihood.
@@ -43,6 +48,7 @@ To run this project locally, follow these steps:
 
 Prerequisites
 Ensure you have Python installed on your system. Python libraries like Flask, Pandas, NumPy, and Scikit-learn are required.
+
 
 Step 1: Clone the Repository
 Clone the repository to your local machine:
